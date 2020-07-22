@@ -1,0 +1,9 @@
+<launch>
+ <!-- Addition of even number and odd numbers with two publishers and one subscriber --> 
+ <node pkg="beginner_tutorials" type="EvenNumberGenerator" name="EvenNode"  output="screen" />
+
+ <node pkg="beginner_tutorials" type="OddNumberGenerator" name="OddNode"  output="screen" />
+
+ <node pkg="beginner_tutorials" type="DisplayAddition" name="AdditionNode"  output="screen" />
+
+</launch>
